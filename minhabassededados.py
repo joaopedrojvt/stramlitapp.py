@@ -244,7 +244,3 @@ df.info()
 df = df.dropna()
 
 df.info()
-
-"""Exportando arquivo final para o Excel"""
-
-df.to_excel("Base_de_Dados_Full.xlsx", index=False)
